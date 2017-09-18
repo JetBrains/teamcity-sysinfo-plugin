@@ -1,4 +1,4 @@
-# JetBrains sysinfo plugin for TeamCity #
+## [<img src="http://jb.gg/badges/official.svg" height="20" align="center"/>](https://confluence.jetbrains.com/display/ALL/JetBrains+on+GitHub) sysinfo plugin for [<img src="https://cdn.worldvectorlogo.com/logos/teamcity.svg" height="20" align="center"/>](https://www.jetbrains.com/teamcity/)
 
 This plugin provides an ability to extract Windows system information and to publish it to agents' configuration parameters during the agents' initialization.
 Extracts detailed configuration information about a computer and its operating system, including operating system configuration, security information, product ID, and hardware properties, such as RAM, disk space, and network cards.
