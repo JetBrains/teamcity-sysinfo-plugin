@@ -1,4 +1,5 @@
-## [<img src="http://jb.gg/badges/official.svg" height="20" align="center"/>](https://confluence.jetbrains.com/display/ALL/JetBrains+on+GitHub) sysinfo plugin for [<img src="https://cdn.worldvectorlogo.com/logos/teamcity.svg" height="20" align="center"/>](https://www.jetbrains.com/teamcity/)
+[[![official JetBrains project](http://jb.gg/badges/official-plastic.svg)](https://confluence.jetbrains.com/display/ALL/JetBrains+on+GitHub) [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0) 
+## sysinfo plugin for [<img src="https://cdn.worldvectorlogo.com/logos/teamcity.svg" height="20" align="center"/>](https://www.jetbrains.com/teamcity/)
 
 This plugin provides an ability to extract Windows system information and to publish it to agents' configuration parameters during the agents' initialization.
 Extracts detailed configuration information about a computer and its operating system, including operating system configuration, security information, product ID, and hardware properties, such as RAM, disk space, and network cards.
@@ -15,10 +16,6 @@ This project contains 3 modules: 'sysinfo-server', 'sysinfo-agent', and 'sysinfo
 ## Build <img src="https://teamcity.jetbrains.com/app/rest/builds/buildType:TeamCityPluginsByJetBrains_SysInfoTeamCityPlugin_Build,pinned:true,branch:master,tags:deploy/statusIcon"/> ##
 
 Use the 'mvn package' command from the root project to build your plugin. The resulting 'sysinfo-agent.zip' package  will be placed in the 'target' directory. The build is configured on the [JetBrains TeamCity build server](https://teamcity.jetbrains.com/project.html?projectId=TeamCityPluginsByJetBrains_SysInfoTeamCityPlugin).
-
-## License ##
-
-JetBrains sysinfo plugin for TeamCity is under the [Apache License](https://github.com/JetBrains/teamcity-dottrace/blob/master/LICENSE).
 
 ## Contributors ##
 
