@@ -25,17 +25,11 @@
       <teamcity-version>9.0.3</teamcity-version>
   </properties>
   <repositories>
-    <repository>
-        <id>JetBrains</id>
-        <url>https://repository.jetbrains.com/all</url>
-    </repository>
+      <repository>
+          <id>teamcity-repository</id>
+          <url>https://download.jetbrains.com/teamcity-repository</url>
+      </repository>
   </repositories>
-  <pluginRepositories>
-      <pluginRepository>
-          <id>JetBrains</id>
-          <url>https://repository.jetbrains.com/all</url>
-      </pluginRepository>
-  </pluginRepositories>
   <build>
       <pluginManagement>
           <plugins>
